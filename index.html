@@ -1,33 +1,76 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Scuffed Gens - Home Page</title>
-        <meta name="description" content="This is Scuffed Gens OFFICIAL website!! \n This website was created by Eclipse (https://eclipseledev.github.io/AboutMe/)">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="style.css">
-
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width">
+        <meta property="og:description" content="ScuffedGens OFFICIAL Website! Made with love by Eclipse (https://eclipsethedev.github.io/AboutMe/)">
+        <meta property="og:title" content="ScuffedGens">
+        <meta property="theme-color" content="#0c3fcc">
+        <link rel="stylesheet" href="styles.css" data-n-g="">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <meta charset="UTF-8" />
+        <title>Eclipse's About Me | Welcome!</title>
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <!--Montserrat font-->
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css" />
+        <link rel="icon" href="icon.png">
+        <script src="https://unpkg.com/feather-icons@4.28.0/dist/feather.min.js"></script>
     </head>
-  
-    <body>
-      
-     <div id="topBar">
-      <a href="./staff-team/">
-        <button id="tb1">Staff Team</a>
-      </a>  
-      <a href="https://eclipseledev.github.io/AboutMe/">
-        <button id="tb2">Developer's Website</button>
-      </a>
-     </div>
-      <div id="topBa2"></div>
-      
-      <h1>A big <bold>warm</bold> welcome from Scuffed Gens!</h1>
-      <a href="https://eclipseledev.github.io/AboutMe/">
-        <button>Made by Eclipse</button>
-      </a>
-        
-    </body>
-
+    <body>   
+        <section>
+          <!-- SOCIAL SECTION -->
+          <section class="image-section w3-quarter w3-fixed w3-padding-small">
+            <div class="links w3-margin-top w3-padding-small">
+              <a class="icon-link w3-text-sand w3-hover-text-amber" href="https://eclipsethedev.github.io/AboutMe/" target="_blank">
+                  <badge>Developer's Website</badge>
+            </div>
+            <!--CV DOWNLOAD BUTTON-->
+          </section>
+    
+          <!--CV CONTENT SECTION-->
+          <section class="w3-threequarter w3-padding-large w3-right">
+            <div class="content-container w3-margin-top-2">
+              <!--HOME SECTION-->
+    
+              <div id="home" class="home w3-container w3-margin-top-4 w3-cursive">
+              </div>
+    
+              <!--ABOUT SECTION-->
+              <div id="about" class="w3-container w3-margin-top-20-percent w3-cursive w3-large">
+                <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">A BIT ABOUT ME</h2>
+                <h4><badge>NOTE</badge><br>When I say "I", "we", "me", "my", "myself" and more I am reffering to myself or other people</h4>
+                <p class=""> 
+                  
+                </p>
+                <p class=""> 
+                    <h3>ScuffedGens</h3>
+                    What are we? <br>
+                    Well we are a minecraft server! You can join our <a href="https://discord.gg/8ZYpUQbQvR">Discord</a> to find more information!
+                </p>
+              </div>
+            <!--FOOTER-->
+            <footer class="w3-container w3-border-top w3-center w3-margin-top-4">
+              <a href="https://eclipsethedev.github.io/AboutMe/">© 2022 - Eclipse</a>
+            </footer>
+    
+            <!--END OF CV SECTION-->
+          </section>      
+        </section>
+        <script>
+          // Function to toggle mobile navigation
+          function toggleNavigation() {
+            let nav = document.getElementById("mobile-nav");
+            if (nav.classList.contains('w3-show')) {
+              nav.classList.remove('w3-show');
+            } else { 
+              nav.classList.add('w3-show');
+            }
+          }
+        </script>
+        <script>
+          // Script to load feather icons
+          feather.replace()
+        </script>
+      </body>
 </html>
